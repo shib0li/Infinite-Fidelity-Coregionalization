@@ -1,6 +1,6 @@
-# *THIS-ODE*: Decomposing Temporal High-Order Interactions via Latent ODEs
+# *IFC*: Decomposing Temporal High-Order Interactions via Latent ODEs
 
-by [Shibo Li](https://imshibo.com), [Mike Kirby](https://www.cs.utah.edu/~kirby/) and [Shandian Zhe](https://www.cs.utah.edu/~zhe/)
+by [Shibo Li](https://imshibo.com), [Wang Zheng], [Mike Kirby](https://www.cs.utah.edu/~kirby/) and [Shandian Zhe](https://www.cs.utah.edu/~zhe/)
 
 <p align="center">
     <br>
@@ -83,7 +83,7 @@ Here are the name mappings of the names we used in the paper and the methods we 
 
 # License
 
-THIS-ODE is released under the MIT License, please refer the LICENSE for details
+IFC is released under the MIT License, please refer the LICENSE for details
 
 # Getting Involved
 Feel free to submit Github issues or pull requests. Welcome to contribute to our project!
@@ -97,19 +97,14 @@ Please cite our paper if you find it helpful :)
 
 ```
 
-@InProceedings{pmlr-v162-li22i,
-  title = 	 {Decomposing Temporal High-Order Interactions via Latent {ODE}s},
-  author =       {Li, Shibo and Kirby, Robert and Zhe, Shandian},
-  booktitle = 	 {Proceedings of the 39th International Conference on Machine Learning},
-  pages = 	 {12797--12812},
-  year = 	 {2022},
-  editor = 	 {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},
-  volume = 	 {162},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {17--23 Jul},
-  publisher =    {PMLR},
-  pdf = 	 {https://proceedings.mlr.press/v162/li22i/li22i.pdf},
-  url = 	 {https://proceedings.mlr.press/v162/li22i.html},
+@inproceedings{
+li2022infinitefidelity,
+title={Infinite-Fidelity Coregionalization  for Physical Simulation},
+author={Shibo Li and Zheng Wang and Robert Kirby and Shandian Zhe},
+booktitle={Advances in Neural Information Processing Systems},
+editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
+year={2022},
+url={https://openreview.net/forum?id=dUYLikScE-}
 }
 
 ```
