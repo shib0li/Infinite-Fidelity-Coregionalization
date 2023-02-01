@@ -33,19 +33,15 @@ We highly recommend to use Docker to run our code. We have attached the docker b
 python generate.py -domain=(Heat, Poisson, Burgers, TopOpt, NavierStockPRec/URec/VRec)
 
 ```
-Note that for *Buergers*, *Topology Optimization*, *NavierStock*, the solvers requires MATLAB support.
-
+Note that for *Buergers*, *Topology Optimization*, *NavierStock*, the solvers requires MATLAB support. The generated multi-fidelity data will saved in to `data/__raw__` folder
 
 
 ```
 data/
-├── raw/
-│   └── Beijing/
+├── __raw__/
+│   └── Heat_8_128/
 │       └──...
-│   └── FitRec/
-│       └──...
-├── processed
-├── (notebooks)
+├── matlab_solvers
 ```
 
 # Run
