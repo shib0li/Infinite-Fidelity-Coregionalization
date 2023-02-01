@@ -12,7 +12,7 @@ by [Shibo Li](https://imshibo.com), Wang Zheng, [Mike Kirby](https://www.cs.utah
     <p>
         <a href="https://openreview.net/forum?id=dUYLikScE-">Paper</a> |
         <a href="https://github.com/shib0li/Infinite-Fidelity-Coregionalization/blob/main/images/slides.pdf">Slides</a> |
-        <a href="https://github.com/shib0li/Infinite-Fidelity-Coregionalization/blob/main/images/poster.png">Poster</a> 
+        <a href="https://github.com/shib0li/Infinite-Fidelity-Coregionalization/blob/main/images/poster.pdf">Poster</a> 
     <p>
 </h4>
 
