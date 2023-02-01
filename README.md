@@ -11,8 +11,8 @@ by [Shibo Li](https://imshibo.com), Wang Zheng, [Mike Kirby](https://www.cs.utah
 <h4 align="center">
     <p>
         <a href="https://openreview.net/forum?id=dUYLikScE-">Paper</a> |
-        <a href="https://github.com/shib0li/Infinite-Fidelity-Coregionalization/blob/main/images/slides-v2.pdf">Slides</a> |
-        <a href="https://github.com/shib0li/Infinite-Fidelity-Coregionalization/blob/main/images/923-poster.png">Poster</a> 
+        <a href="https://github.com/shib0li/Infinite-Fidelity-Coregionalization/blob/main/images/slides.pdf">Slides</a> |
+        <a href="https://github.com/shib0li/Infinite-Fidelity-Coregionalization/blob/main/images/poster.png">Poster</a> 
     <p>
 </h4>
 
