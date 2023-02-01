@@ -65,6 +65,27 @@ bash test-GPT.sh $DOMAIN $RANK $EPOCHS $DEVICE $FOLD $INTERVAL
 * `$INTERVAL` frequency for saving the results
 * `$DEPTH_A` (for *IFC-ODE* $^2$ only) depth of basis neural ODE
 
+# Example
+
+You can fast test on *Heat* equation by run
+```
+bash test-ODE.sh/test-GPT.sh Heat 5 500 cuda:0 0 10
+```
+for 500 epochs, the training and testing errors are ploted
+
+<p align="center">
+    <br>
+    <img src="images/rmse_heat_InfFidGPT.png" width="500" />
+    <br>
+<p>
+    
+<p align="center">
+    <br>
+    <img src="images/rmse_heat_InfFidODE.png" width="500" />
+    <br>
+<p>
+
+
 
 
 # License
