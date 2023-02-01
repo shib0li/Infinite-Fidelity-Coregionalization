@@ -63,7 +63,7 @@ bash test-GPT.sh $DOMAIN $RANK $EPOCHS $DEVICE $FOLD $INTERVAL
 * `$DEVICE` where to run, for example ***cuda:0*** or ***cpu***
 * `$FOLD` fold index of dataset
 * `$INTERVAL` frequency for saving the results
-* `$DEPTH_A` (for *IFC-ODE* $^2$ only) neural ODE depth of the basis
+* `$DEPTH_A` (for *IFC-ODE* $^2$ only) depth of basis neural ODE
 
 
 
