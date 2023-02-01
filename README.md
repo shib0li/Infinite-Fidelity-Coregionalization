@@ -46,7 +46,7 @@ data/
 
 # Run
 
-To run *IFC-ODE $^2$*
+To run *IFC-ODE* $^2$
 
 
 
