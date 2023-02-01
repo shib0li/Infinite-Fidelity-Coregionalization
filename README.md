@@ -27,12 +27,13 @@ We highly recommend to use Docker to run our code. We have attached the docker b
 
 # Datasets of Physical Simulations
 
-We only provide the *Heat* equation data in this repository. You can generate other datasets by yourself by running
+*Heat* equation data is included in this repository. You can generate other physical simulations datasets by yourself by running
 
 ```
 python generate.py -domain=(Heat, Poisson, Burgers, TopOpt, NavierStockPRec/URec/VRec)
 
 ```
+Note that for *Buergers*, *Topology Optimization*, *NavierStock*, the solvers requires MATLAB support.
 
 
 
