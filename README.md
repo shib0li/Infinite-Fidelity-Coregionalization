@@ -2,13 +2,13 @@
 
 by [Shibo Li](https://imshibo.com), Wang Zheng, [Mike Kirby](https://www.cs.utah.edu/~kirby/) and [Shandian Zhe](https://www.cs.utah.edu/~zhe/)
 
-<!-- <p align="center">
+<p align="center">
     <br>
-    <img src="images/THIS-ODE.png" width="500" />
+    <img src="images/ifc-ns.png" width="500" />
     <br>
 <p>
 
-<h4 align="center">
+<!-- <h4 align="center">
     <p>
         <a href="https://proceedings.mlr.press/v162/li22i.html">Paper</a> |
         <a href="https://github.com/shib0li/THIS-ODE/blob/main/images/slides-v2.pdf">Slides</a> |
