@@ -33,7 +33,7 @@ We highly recommend to use Docker to run our code. We have attached the docker b
 python generate.py -domain=(Heat, Poisson, Burgers, TopOpt, NavierStockPRec/URec/VRec)
 
 ```
-Note that for *Buergers*, *Topology Optimization*, *NavierStock*, the solvers requires MATLAB support. The generated multi-fidelity data will saved in to `data/__raw__` folder
+For *Buergers*, *Topology Optimization*, *NavierStock*, the solvers requires MATLAB support. The generated multi-fidelity data will saved in to `data/__raw__` folder
 
 
 ```
@@ -46,45 +46,15 @@ data/
 
 # Run
 
-To run all the methods, use our provided `run.sh` script, this script takes several arguments
+To run *IFC-ODE $^2$*
+
+
 
 ```
 ./run.sh $DOMAIN $METHOD $MAX_EPOCHS $RANK $DEVICE $FOLD $BATCH_SIZE $TEST_INTERVAL 
 
 ```
 
-* `$DOMAIN` is a concat string that specifies the task and setting, for example ***BeijingAirExtrap*** means run with BeijingAir data on extrapolation setting.
-* `$METHOD` learning algorithms
-* `$MAX_EPOCHS` an integer of number of epochs
-* `$RANK` dimension used for decomposition representation
-* `$DEVICE` where to run, for example ***cuda:0*** or ***cpu***
-* `$FOLD` fold index after splitting the datasets
-* `$BATCH_SIZE` mini-batch size used for training
-* `$TEST_INTERVAL` frequency for saving the results
-
-for example
-
-```
-bash run.sh BeijingAirExtrap Neural_time 10 8 cuda:0 0 100 1 
-```
-
-runs the experiment of BeijingAir on the extraplation setting with the algorihtm of neural_time for 10 epochs. The dimensional of representation is 8 and the program runs on the first GPU. The minibatch size is 100 and save the reulst every 1 update.
-
-Here are the name mappings of the names we used in the paper and the methods we used in the code.
-
-| Names in the paper | Names in this repo |
-|:------------------:|:------------------:|
-|       CP-Time      |      CPTF_time     |
-|       CP-DTL       |     CPTF_linear    |
-|       CP-DTN       |      CPTF_rnn      |
-|      GPTF-Time     |      GPTF_time     |
-|      GPTF-DTL      |     GPTF_linear    |
-|      GPTF-DTN      |      GPTF_rnn      |
-|      NTF-Time      |     Neural_time    |
-|       NTF-DTL      |    Neural_linear   |
-|       NTF-DTN      |     Neural_rnn     |
-|       PTucker      |       Tucker       |
-|      THIS-ODE      |     NODE_noise     |
 
 # License
 
