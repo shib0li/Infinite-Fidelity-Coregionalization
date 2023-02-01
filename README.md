@@ -1,4 +1,4 @@
-# *IFC*: Infinite-Fidelity Coregionalization for Physical Simulation
+# *IFC-ODE$^2$*: Infinite-Fidelity Coregionalization for Physical Simulation
 
 by [Shibo Li](https://imshibo.com), Wang Zheng, [Mike Kirby](https://www.cs.utah.edu/~kirby/) and [Shandian Zhe](https://www.cs.utah.edu/~zhe/)
 
