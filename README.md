@@ -4,7 +4,7 @@ by [Shibo Li](https://imshibo.com), Wang Zheng, [Mike Kirby](https://www.cs.utah
 
 <p align="center">
     <br>
-    <img src="images/ifc-illustrate.png" width="500" />
+    <img src="images/ifc-illustrate.png" width="800" />
     <br>
 <p>
 
