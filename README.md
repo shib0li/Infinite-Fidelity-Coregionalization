@@ -75,13 +75,13 @@ for 500 epochs, the training and testing errors are ploted
 
 <p align="center">
     <br>
-    <img src="images/rmse_heat_InfFidGPT.png" width="500" />
+    <img src="images/rmse_heat_InfFidGPT.png" width="300" />
     <br>
 <p>
     
 <p align="center">
     <br>
-    <img src="images/rmse_heat_InfFidODE.png" width="500" />
+    <img src="images/rmse_heat_InfFidODE.png" width="300" />
     <br>
 <p>
 
