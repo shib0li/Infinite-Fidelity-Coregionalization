@@ -1,0 +1,13 @@
+.ipynb
+.DS_Store
+.ipynb_checkpoints/
+__pycache__
+*.pyc
+*.hkl
+.Trash-0
+data/__cache__
+data/db
+__res__
+__log__
+data_mfgp
+data_dc

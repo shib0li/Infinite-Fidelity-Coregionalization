@@ -1,0 +1,10 @@
+.ipynb
+.DS_Store
+.ipynb_checkpoints/
+__pycache__
+*.pyc
+*.hkl
+.Trash-0
+__cache__
+db
+__buff__
