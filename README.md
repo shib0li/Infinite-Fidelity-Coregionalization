@@ -47,13 +47,24 @@ data/
 # Run
 
 To run *IFC-ODE* $^2$
-
-
+```
+bash test-ODE.sh $DOMAIN $RANK $EPOCHS $DEVICE $FOLD $INTERVAL $DEPTH_A
 
 ```
-./run.sh $DOMAIN $METHOD $MAX_EPOCHS $RANK $DEVICE $FOLD $BATCH_SIZE $TEST_INTERVAL 
+To run *IFC-GPT*
+```
+bash test-GPT.sh $DOMAIN $RANK $EPOCHS $DEVICE $FOLD $INTERVAL 
 
 ```
+
+* `$DOMAIN` name of physical problesm: *Heat*, *Poisson*, *Burgers*, *TopOpt*, *NavierStockPRec*(3D problem)
+* `$RANK` dimension of latent ODE
+* `$EPOCHS` maximum epochs 
+* `$DEVICE` where to run, for example ***cuda:0*** or ***cpu***
+* `$FOLD` fold index of dataset
+* `$INTERVAL` frequency for saving the results
+* `$DEPTH_A` (for *IFC-ODE* $^2$ only) neural ODE depth of the basis
+
 
 
 # License
